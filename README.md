@@ -1,5 +1,5 @@
 # Design-Challenge
 
-Recreating a Template for a take-home tech challenge
+Recreating a template for a take-home tech challenge
 
 
