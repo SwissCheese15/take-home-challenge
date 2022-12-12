@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Titillium+Web:wght@200;600&display=swap');
+
+@font-face {
+    font-family: bigFont;
+    src: url(../../../../public/fonts/indigo/Indigo.otf);
+}
+
+.landingPageContent {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid item */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.titleAndBigWord {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    margin-left: -100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: 4.2vw;
+    z-index: 1;
+}
+
+.bigWord {
+    width: 100%;
+    font-size: 8vw;
+    letter-spacing: 5vw;
+    padding-left: 5vw;
+    z-index: 0;
+    text-transform: uppercase;
+    font-family: bigFont;
+    color: rgb(255, 255, 255, 0.15)
+}
+
+#elevatorPitch {
+   width: 50vw;
+   font-family: 'Raleway', sans-serif;
+}
+
+#viewProjectsButton {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background: black;
+    border-style: none;
+    height: 40px;
+    width: 120px;
+    margin-top: 5vh;
+    transition: 400ms;
+}
+
+#viewProjectsButton:hover {
+    color: black;
+    background: white;
+    transition: 400ms;
+}
+
+#logo {
+    height: 5vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#sideBarRight {
+    /* grid item */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+}

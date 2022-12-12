@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Raleway:wght@100;200;600&family=Titillium+Web:wght@400;700&display=swap');
+
+.copyrightMainDiv {
+    /* grid item */
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightContent {
+    width: 64vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrightContent div {
+    display: flex;
+}
+
+.copyrightContent h5 {
+    color: #dadada;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+}
+
+.copyrightContent a {
+    cursor: pointer;
+    color: #dadada;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+}
+
+#themeModern {
+    color: #f8f9fa!important;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1vw;
+}
+

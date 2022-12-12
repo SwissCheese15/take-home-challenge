@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Titillium+Web:wght@200;600&display=swap');
+
+.sideBarMainDiv {
+    writing-mode: vertical-rl;
+    transform: scale(-1, -1);
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    /* grid item */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBarMainDiv a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8vh;
+    margin: 2vh 0 2vh 0;
+}
+
+.sideBarMainDiv a:hover{
+    color: #9F9E9E;
+}

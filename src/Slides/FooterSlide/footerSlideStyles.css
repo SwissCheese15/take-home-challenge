@@ -1,0 +1,128 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.footerSlideMainDiv {
+    background: #1A1A1A;
+    height: 30vw;
+    min-height: 18vw;
+    /* grid container */
+    display: grid;
+    grid-template-rows: 1fr 16%;
+}
+
+.footerBlocks {
+    margin-left: 18vw;
+    color: #c2c2c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66vw;
+}
+
+.block {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 16vw;
+    height: 50%;
+    /* grid container */
+    display: grid;
+    grid-template-rows: 30% 1fr 1fr 1fr;
+    text-align: start;
+}
+
+.block h3 {
+    color: white;
+    font-size: 1.4vw;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+.block a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.block h4 {
+    color: #c2c2c2;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.block p {
+    color: #c2c2c2;
+    font-size: 0.9vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#block1 {
+    margin-top: -2vw;
+}
+
+#block1 h4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 1vw;
+}
+
+#block1 div {
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.socialIcons img{
+    height: 1.2vw;
+    width: 1.2vw;
+    margin: 0 0.8vw 0 0;
+    border: 1px solid #c2c2c26b;
+    border-radius: 50%;
+    padding: 2.6%;
+}
+
+.socialIcons img:hover{
+    background: #444444;
+}
+
+#block4 {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+#block4 input {
+    margin-top: -0.5vw;
+    height: 2vw;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #c2c2c2;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #c2c2c26b;
+}
+
+#block4 input::placeholder {
+    font-size: 0.8vw;
+}
+
+#block4 img {
+    cursor: pointer;
+    margin-left: 16vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 1vw;
+}
+
+#block4 p {
+    margin-bottom: 2vw;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#footerLogo {
+    width: 11vw;
+}

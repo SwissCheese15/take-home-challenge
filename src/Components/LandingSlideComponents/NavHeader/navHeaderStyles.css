@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Titillium+Web:wght@200;400;600&display=swap');
+
+.navHeaderMainDiv {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    /* grid item */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 25% 7.5% 9% 9.5% 7% 9% 10%;
+
+
+}
+
+.headerOption {
+    /* grid container */
+    display: grid;
+    grid-template-rows: 2vw 1vw 1vw 1vw;
+    grid-template-columns: 6vw 0.5vw;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1vw;
+    text-align: end;
+}
+
+.text {
+    max-width: 5vw;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.angleDiv {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.angleDiv img {
+    height: 0.7vw;
+    transform: rotate(90deg);
+}
+
+span {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    scale: 0;
+    transition: 400ms;
+    transform-origin: bottom;
+}
+
+.headerOption:hover span {
+    scale: 1;
+    transition: 400ms;
+}
+
+.headerOption:hover {
+    cursor: pointer;
+}
+
+span img {
+    height: 0.55vw;
+}
+
+#shoppingWithNumber {
+    cursor: pointer;
+    height: 1.4vw;
+    width: 1.4vw;
+    position: absolute;
+    top: 1.7vw;
+    right: 11.5vw;
+    display: flex;
+}
+
+#shoppingCount {
+    height: 0.35vw;
+    width: 0.35vw;
+    text-align: center;
+    line-height: 0.6;
+    font-size: 0.6vw;
+    margin-top: 0.9vw;
+    margin-right: -0.6vw;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.4vw 0.4vw 0.4vw 0.4vw;
+    z-index: 1;
+}
+
+#cartIcon {
+    height: 1.4vw;
+    width: 1.4vw;
+    z-index: 0.5;
+}
+
+#searchIcon {
+    cursor: pointer;
+    height: 1.4vw;
+    width: 1.4vw;
+    position: absolute;
+    top: 1.7vw;
+    right: 8vw;
+}
+
+#hamburgerIcon {
+    cursor: pointer;
+    height: 1.4vw;
+    width: 1.4vw;
+    position: absolute;
+    top: 1.7vw;
+    right: 1.7vw;
+}
+
+/* dropdown */
+
+.space {
+    height: 1.4vw;
+    width: 21vw;
+    margin-top: 5vw;
+    z-index: 2;
+}
+
+#dropdown {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    opacity: 0;
+    scale: 0;
+    width: 21vw;
+    z-index: 2;
+}
+
+.headerOption:hover #dropdown {
+    opacity: 1;
+    scale: 1;
+}
+
+.space:hover #dropdown {
+    opacity: 1;
+    scale: 1;
+}
+
+#dropdown:hover {
+    opacity: 1;
+    scale: 1;
+}
+
+.list {
+    margin-top: 2.3vw;
+    color: rgba(255, 255, 255, 0.597);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: #2a2a2a;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list li {
+    display: flex;
+}
+
+.list a {
+    margin: 1vw 0 1vw 0;
+    position: relative;
+    transition: 200ms;
+}
+
+.hoverLine {
+    margin-right: 1vw;
+    border-bottom: 1px solid white;
+    height: 1.8vw;
+    width: 0vw;
+    transition: 200ms;
+}
+
+.list li:hover a {
+    color: white;
+    transition: 200ms;
+}
+
+.list li:hover div {
+    width: 3vw;
+    transition: 200ms;
+
+}
+

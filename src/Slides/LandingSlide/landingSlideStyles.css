@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Titillium+Web:wght@200;600&display=swap');
+
+@font-face {
+    font-family: bigFont;
+    src: url(../../../public/fonts/indigo/Indigo.otf);
+}
+
+* {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.landingPageMainDiv {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 70vw;
+    /* grid container */
+    display: grid;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-template-rows: 5vw 1fr 5vw;
+}
+
+#studio {
+    background-image: url("../../../public/images/slider3-home1.jpeg");
+    background-image: transition 500ms;
+}
+
+#design {
+    background-image: url("../../../public/images/slider1-home1.jpeg");
+    transition: 500ms;
+}
+
+#quality {
+    background-image: url("../../../public/images/slider2-home1.jpeg");
+    transition: 500ms;
+}
+
